@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tripbosss</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css"> 
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>        
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+            <h1>WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+
+        </div>
+    </header>
+
+    <!-- Events-->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming events</h1>
+            <div class="line"></div>
+        </div> 
+        <div class="row">
+            <div class="col">
+                <img src="./img/img-2.jpg"alt="">
+                <h4>Everset camp trek</h4>
+                <p>Is trekking to Everest Base camp on your bucket list? We can Help! Top rated treks.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img-1.jpg"alt="">
+                <h4>Holiday Traveling</h4>
+                <p>Discover, plan and book your perfect trip with expert advice, hand picked hotels and world class service</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+<!--Explore section-->
+
+    <section class="explore"> 
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quia, officiis quisquam consequatur velit veritatis pariatur laudantium fugit rerum temporibus nulla sint consequuntur nihil quam asperiores delectus a. Excepturi, soluta!</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, accusantium fugit, molestias a eos quam explicabo obcaecati, necessitatibus iure nesciunt neque maxime sunt enim impedit consequatur repellendus ab vero omnis!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/img-3.jpg"alt="">
+                    <img src="./img/img-4.jpg"alt="">
+                    <img src="./img/img-5.jpg"alt="">
+                    <img src="./img/img-6.jpg"alt="">
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section class="footer">
+        <p>123 fifth avenue, NY101660, New York, USA | phone: 800-123-456 | email: contact@example </p>
+        <p>Copyright @ 2020 Outdoor adventure</p>
+    </section>
+    
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+</body>
+</html>
